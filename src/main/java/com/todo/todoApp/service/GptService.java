@@ -26,7 +26,7 @@ public class GptService {
 
   private final UserRepository userRepository;
   private final TodoRepository todoRepository;
-  public static final String OPEN_AI_SECRET_KEY = "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";
+
 
   public ResponseEntity<String> askGptForTodo(String token, String todoId) {
 
