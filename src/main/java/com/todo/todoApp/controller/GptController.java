@@ -30,8 +30,6 @@ public class GptController {
 
   private final GptService gptService;
 
-  public static final String OPEN_AI_SECRET_KEY = "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";
-
   @PostMapping("/context")
   public String configureContext() {
 
